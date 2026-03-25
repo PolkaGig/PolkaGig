@@ -45,3 +45,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: email: "xpdxpjx@gmail.com.
 - 😄 Pronouns: We. It. Our.
 -->
+  graph TD
+    A[Freelancer/Employer] -->|Social Login| B(Proxy Account)
+    B -->|Post Job| C{Asset Hub Escrow}
+    C -->|Lock USDT| D[Escrow Vault]
+    D -->|Work Approved| E[Freelancer Wallet]
+    D -->|Success Signal| F[People Chain Reputation]
+    F -->|Update CV| G[Sovereign Identity]
+
